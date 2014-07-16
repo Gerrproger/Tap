@@ -18,6 +18,13 @@ $(function(){
   $('#someBlock').tap('off');
 });
 ```
+You can call all callbacks just as simple:
+```javascript
+$(function(){
+  $('#someBlock').tap();
+});
+```
+
 
 ### Options
 You can also set two options for the plugin:
