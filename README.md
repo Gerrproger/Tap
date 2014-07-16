@@ -20,7 +20,7 @@ $(function(){
 ```
 
 ### Options
-You can also set two otions for thr plugin:
+You can also set two options for the plugin:
 
 **delay** *(default: 200)*<br/>
 Allowable value in milliseconds between the 'touchstart' and 'touchend' events to call your function
