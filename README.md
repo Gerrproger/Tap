@@ -12,7 +12,7 @@ $(function(){
   $('#someBlock').tap(function(){ doSomething(); });
 });
 ```
-To unsubscribe from all tap events on the block use the 'off' parametr:
+To unsubscribe from all tap events on the block use the 'off' parameter:
 ```javascript
 $(function(){
   $('#someBlock').tap('off');
