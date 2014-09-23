@@ -27,7 +27,10 @@
             if(!first) return;
             $el.on('touchstart', function(e){
                 e = e.originalEvent;
-                if(e.touches.length>1) $el.data({tap: false});
+                if(e.touches.length>1){ 
+                    $el.data({tap: false});
+                    return;
+                }
                 var t = Date.now ? Date.now() : +new Date();
                 $el.data({tap: true, tap_time: t, tap_x: e.touches[0].pageX, tap_y: e.touches[0].pageY});
             }).on('touchend', function(e){
